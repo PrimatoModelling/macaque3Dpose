@@ -1,0 +1,83 @@
+[cam_0]
+name = "1"
+size = [ 2048, 1536,]
+matrix = [ [ 0.0, 0.0, 0.0,], [ 0.0, 0.0, 0.0,], [ 0.0, 0.0, 0.0,],]
+distortions = [ 0.0, 0.0, 0.0, 0.0,]
+rotation = [0, 0, 0,]
+translation = [ 0, 0, 0,]
+fisheye = false
+omnidir = true
+
+[cam_1]
+name = "2"
+size = [ 2048, 1536,]
+matrix = [ [ 0.0, 0.0, 0.0,], [ 0.0, 0.0, 0.0,], [ 0.0, 0.0, 0.0,],]
+distortions = [ 0.0, 0.0, 0.0, 0.0,]
+rotation = [0, 0, 0,]
+translation = [ 0, 0, 0,]
+fisheye = false
+omnidir = true
+
+[cam_2]
+name = "3"
+size = [ 2048, 1536,]
+matrix = [ [ 0.0, 0.0, 0.0,], [ 0.0, 0.0, 0.0,], [ 0.0, 0.0, 0.0,],]
+distortions = [ 0.0, 0.0, 0.0, 0.0,]
+rotation = [0, 0, 0,]
+translation = [ 0, 0, 0,]
+fisheye = false
+omnidir = true
+
+[cam_3]
+name = "4"
+size = [ 2048, 1536,]
+matrix = [ [ 0.0, 0.0, 0.0,], [ 0.0, 0.0, 0.0,], [ 0.0, 0.0, 0.0,],]
+distortions = [ 0.0, 0.0, 0.0, 0.0,]
+rotation = [0, 0, 0,]
+translation = [ 0, 0, 0,]
+fisheye = false
+omnidir = true
+
+[cam_4]
+name = "5"
+size = [ 2048, 1536,]
+matrix = [ [ 0.0, 0.0, 0.0,], [ 0.0, 0.0, 0.0,], [ 0.0, 0.0, 0.0,],]
+distortions = [ 0.0, 0.0, 0.0, 0.0,]
+rotation = [0, 0, 0,]
+translation = [ 0, 0, 0,]
+fisheye = false
+omnidir = true
+
+[cam_5]
+name = "6"
+size = [ 2048, 1536,]
+matrix = [ [ 0.0, 0.0, 0.0,], [ 0.0, 0.0, 0.0,], [ 0.0, 0.0, 0.0,],]
+distortions = [ 0.0, 0.0, 0.0, 0.0,]
+rotation = [0, 0, 0,]
+translation = [ 0, 0, 0,]
+fisheye = false
+omnidir = true
+
+[cam_6]
+name = "7"
+size = [ 2048, 1536,]
+matrix = [ [ 0.0, 0.0, 0.0,], [ 0.0, 0.0, 0.0,], [ 0.0, 0.0, 0.0,],]
+distortions = [ 0.0, 0.0, 0.0, 0.0,]
+rotation = [0, 0, 0,]
+translation = [ 0, 0, 0,]
+fisheye = false
+omnidir = true
+
+[cam_7]
+name = "8"
+size = [ 2048, 1536,]
+matrix = [ [ 0.0, 0.0, 0.0,], [ 0.0, 0.0, 0.0,], [ 0.0, 0.0, 0.0,],]
+distortions = [ 0.0, 0.0, 0.0, 0.0,]
+rotation = [0, 0, 0,]
+translation = [ 0, 0, 0,]
+fisheye = false
+omnidir = true
+
+[metadata]
+adjusted = false
+error = 0.2411706423925879

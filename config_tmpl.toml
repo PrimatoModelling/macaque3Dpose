@@ -1,0 +1,74 @@
+
+project = 'test-scage'
+
+model_folder = '/media/deepstation/843cad10-f308-49f6-b896-b1ac1470af80/anipose_demo/hand-demo-dlc-TuthillLab-2019-08-05' 
+
+nesting = 1
+video_extension = 'mp4'
+
+[calibration]
+# checkerboard / charuco / aruco
+board_type = "charuco"
+
+# width and height of grid
+board_size = [10, 7]
+
+# number of bits in the markers, if aruco/charuco
+board_marker_bits = 4
+
+# number of markers in dictionary, if aruco/charuco
+board_marker_dict_number = 50
+
+# length of marker side
+board_marker_length = 18.75 # mm
+
+# If aruco, length of marker separation
+# board_marker_separation_length = 1 # mm
+
+# If charuco or checkerboard, square side length
+board_square_side_length = 25 # mm
+
+animal_calibration = false
+
+fisheye = false
+
+[labeling]
+scheme = [
+   ["left_shoulder", "left_ear", "nose", "right_ear", "right_shoulder"],
+   ["right_shoulder", "left_shoulder", "left_hip", "right_hip", "right_shoulder", "left_hip", "right_hip", "left_shoulder"],
+   ["left_shoulder", "left_elbow", "left_wrist"],
+   ["right_shoulder", "right_elbow", "right_wrist"],
+   ["left_hip", "left_knee", "left_ankle"],
+   ["right_hip", "right_knee", "right_ankle"],
+ ]
+
+[filter]
+enabled = true
+type = "viterbi"
+
+[triangulation]
+triangulate = true
+cam_regex = '-cam([0-7])'
+cam_align = "4"
+ransac = false
+optim = true
+constraints = [
+   ["nose", "left_ear"], ["nose", "right_ear"], ["left_ear", "right_ear"],
+   ["left_shoulder", "left_elbow"], ["left_elbow", "left_wrist"], 
+   ["right_shoulder", "right_elbow"], ["right_elbow", "right_wrist"], 
+   ["left_hip", "left_knee"], ["left_knee", "left_ankle"], 
+   ["right_hip", "right_knee"], ["right_knee", "right_ankle"], 
+]
+constraints_weak = [
+   ["left_shoulder", "left_ear"], ["right_shoulder", "right_ear"], 
+   ["left_shoulder", "right_shoulder"], ["left_hip", "right_hip"], 
+   ["left_shoulder", "left_hip"], ["right_shoulder", "right_hip"], 
+   ["left_shoulder", "right_hip"], ["right_shoulder", "left_hip"], 
+]
+scale_smooth = 10#25
+scale_length = 10
+scale_length_weak = 2
+reproj_error_threshold = 3
+score_threshold = 0.5
+n_deriv_smooth = 3#2
+

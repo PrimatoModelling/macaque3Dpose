@@ -1,0 +1,50 @@
+
+camera_id: 
+- 22983524 
+- 23131347
+- 23131353
+- 23131363
+- 22983528
+- 22972495
+- 22983529
+- 23131354
+
+chessboard_vid_folder: chessboard
+chessboard_square_size: 23
+
+cagekeypoint_vid_folder: nohuman
+cagekeypoint_position: cagepoints.csv
+
+marker_vid_folder: marker
+marker_size: 175
+cube_size: 200
+
+img_size:
+- 2048
+- 1536
+
+camera_pos:
+- - 0.
+  - -1700.
+  - 0.
+- - null
+  - null
+  - null
+- - 0.
+  - -1700.
+  - null
+- - null
+  - null
+  - null
+- - null
+  - null
+  - null
+- - null
+  - null
+  - null
+- - null
+  - -1700.
+  - null
+- - null
+  - null
+  - null
