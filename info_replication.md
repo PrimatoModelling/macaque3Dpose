@@ -8,7 +8,7 @@ Any system that can capture video from multiple cameras in sync should work. Pre
 
 The cameras must be fixed stably because the information about the camera positions is needed for the 3D reconstruction and the camera positions are assumed to remain unchanged throughout the recording. In addition, if the cameras are located inside the cage like us, appropriate camera housings are needed.
 
-See [our paper](xxx) for an example of implementation. 
+See [our paper]() for an example of implementation. 
 
 ### The data processing PC
 A Linux or Windows PC with a NVIDIA GPU is required. Multiple GPUs can be utilized by providing different GPU names (as [*device_str*](run_demo.py) variables) for each process.
@@ -32,7 +32,7 @@ Camera parameters need be calibrated and saved in the [calib folder](calib). Spe
 See [OpenCV documentation](https://docs.opencv.org/4.x/dd/d12/tutorial_omnidir_calib_main.html) for details of parameters.
 
 ## Training of the CNNs
-The pipeline uses three CNNs, the pose estimation, ID recognition, and detection networks. Training of the CNNs fine-tuned to your experimental environment is important for good performance. The training datasets for our macaque group cage are available [here](XXX). Create similar annotated datasets based on the images captured in your experimental setup. For better performance with a relatively small custom dataset, it may be good to try combining it with our larger dataset or re-training our [pre-trained networks](XXX) with your dataset.
+The pipeline uses three CNNs, the pose estimation, ID recognition, and detection networks. Training of the CNNs fine-tuned to your experimental environment is important for good performance. The training datasets for our macaque group cage are available [here](https://doi.org/10.5281/zenodo.15195509). Create similar annotated datasets based on the images captured in your experimental setup. For better performance with a relatively small custom dataset, it may be good to try combining it with our larger dataset or re-training our [pre-trained networks](https://doi.org/10.5281/zenodo.15195349) with your dataset.
 
 For details of the dataset formats and how to train the CNNs, see OpenMMLab documentations (https://github.com/open-mmlab). *MMDetection*, *MMPose*, and *MMClassification* frameworks are used for training the CNNs. The model configuration files for each network can be found in the [model folder](model). After training, replace the pth files in the weight folder with the new ones. 
 

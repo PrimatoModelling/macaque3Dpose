@@ -2,7 +2,7 @@
 This document explains how to run the demo.
 
 # Additional dataset for the demo
-Please download the video data and pretrained models from [Zenodo](XXXXX).   
+Please download the video data and pretrained models from [Zenodo](https://doi.org/10.5281/zenodo.15195349).   
 Place the unzipped contents ("videos" and "weight" folders) in the same directory as this file. 
 
 # Tested environment 

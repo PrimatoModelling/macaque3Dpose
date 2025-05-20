@@ -6,12 +6,12 @@ This tool is designed to process multiple videos from various viewpoints and gen
 
 - Analytic pipeline combining multiple CNNs and 3D reconstruction utilities. 
 - Pretrained network optimized for 3D pose estimation of macaque groups. The pre-trained model outputs time series data of 3D positions for nose, ears, shoulders, elbows, wrists, hips, knees, ankles. 
-- The training dataset is available [here](XXX). 
+- The training dataset is available [here](https://doi.org/10.5281/zenodo.15195509). 
 
 ### Reference 
 If you use the code or data, please cite us:   
-[Three-dimensional markerless motion capture of multiple freely behaving monkeys for automated characterization of social behavior](xxx)   
-by Jumpei Matsumoto and Takaaki Kaneko et al. ([journal of xxx](xxx))
+[Three-dimensional markerless motion capture of multiple freely behaving monkeys for automated characterization of social behavior]()   
+by Jumpei Matsumoto and Takaaki Kaneko et al. ([*coming soon*]())
 
 ### Demo 
 Please see [getting_started.md](getting_started.md)  
