@@ -10,8 +10,8 @@ This tool is designed to process multiple videos from various viewpoints and gen
 
 ### Reference 
 If you use the code or data, please cite us:   
-[Three-dimensional markerless motion capture of multiple freely behaving monkeys for automated characterization of social behavior]()   
-by Jumpei Matsumoto and Takaaki Kaneko et al. ([*coming soon*]())
+[Three-dimensional markerless motion capture of multiple freely behaving monkeys toward automated characterization of social behavior](https://www.science.org/doi/10.1126/sciadv.adn1355)   
+by Jumpei Matsumoto and Takaaki Kaneko et al., 2025, *Science Advances*
 
 ### Demo 
 Please see [getting_started.md](getting_started.md)  
