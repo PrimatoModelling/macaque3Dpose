@@ -37,6 +37,7 @@ pip install toml==0.10.2
 pip install matplotlib==3.7.5
 pip install joblib==1.3.2
 pip install networkx==2.6
+pip install lap==0.4.0
 
 # Minor or local resources 
 pip install imgstore==0.2.9
