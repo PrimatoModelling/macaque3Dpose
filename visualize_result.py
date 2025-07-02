@@ -149,6 +149,8 @@ def proc(data_name, i_cam, config_path, raw_data_dir=None):
         cfg = yaml.safe_load(f)
     ID = cfg['camera_id']
 
+    os.makedirs('./output', exist_ok=True)
+    
     vid_path = './output/' + data_name + '_{:d}.mp4'.format(ID[i_cam])
 
     if os.path.exists(vid_path):
